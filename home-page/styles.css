@@ -1,0 +1,165 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  /* height: 100,000px; */
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.heading{
+  background-image: url(/home-page/images/SME-homepage.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 220px;
+  height: 50vh;
+}
+.heading h1{
+  font-size: 50px;
+  color: white;
+}
+.heading p{
+  color: rgb(231, 228, 228);
+  font-size: 20px;
+  
+}
+/* the end of heading */
+
+
+.content-about{
+  text-align: center;
+  background-color: #000;
+  /* background-color: rgb(252, 249, 249); */
+  height: 300px;
+  padding-top: 110px;
+}
+.content-about h1{
+  color: whitesmoke;
+  font-weight: 900;
+  font-size: 40px;
+}
+.content-about p{
+  font-size: 20px;
+  line-height: 1.5;
+  color: whitesmoke;
+}
+/* the end of .content-about */
+
+/* .content-service h1{
+  text-align: center;
+}
+.Service-flex{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minimax(280px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+} */
+/* the beginning of service-flex */
+.services {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services h2 {
+  font-size: 60px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  width: 250px;
+}
+
+.service-box h2 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.service-box p {
+  /* font-size: 0.95em; */
+  font-size: 17px;
+  color: #555;
+  line-height: 1.5;
+}
+/* the End of service-flex */
+
+.contact-us h1{
+  text-align: center;
+}
+.contact-us .buttons{
+  text-align: center;
+}
+.buttons .input-1{
+  padding: 5px 200px;
+  height: 30px;
+  background-color: rgb(229, 226, 226);
+  border: none;
+}
+.buttons .input-2{
+  padding: 5px 200px;
+  height: 30px;
+  background-color: rgb(229, 226, 226);
+  border: none;
+}
+.contact-us h1{
+  font-size: 40px;
+  /* text-align: center; */
+}
+.mess{
+  margin-left: 101px;
+}
+/* the end of .contact-us */
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 540px;
+}
+.footer button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 640px) {
+  .contact-us{
+    flex-direction: column;
+  }
+  .buttons .input-1{
+  position: relative;
+  bottom: 20px;
+  padding: 5px 100px;
+  padding-bottom: 20px;
+}
+.buttons .input-2{
+  padding: 5px 100px;
+}
+.footer{
+  flex-direction: column;
+  gap: 20px;
+}
+}
