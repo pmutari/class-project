@@ -57,16 +57,7 @@ body{
 }
 /* the end of .content-about */
 
-/* .content-service h1{
-  text-align: center;
-}
-.Service-flex{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minimax(280px, 1fr));
-  gap: 30px;
-  max-width: 1000px;
-  margin: 0 auto;
-} */
+
 /* the beginning of service-flex */
 .services {
   text-align: center;
